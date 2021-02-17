@@ -38,7 +38,12 @@ uses
     (*! -------------------------------
      *   controllers factory
      *----------------------------------- *)
-    {---- put your controller factory here ---};
+    {---- put your controller factory here ---},
+    HomeControllerFactory,
+    UploadControllerFactory,
+    BaseViewFactory,
+    UploadViewFactory,
+    UploadSuccessViewFactory;
 
 
 

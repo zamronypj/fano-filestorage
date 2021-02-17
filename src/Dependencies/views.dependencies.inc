@@ -9,3 +9,9 @@
 {%dependencies.inc}
 
 {---put your views-related dependencies registration here---}
+
+container.add('templateParser', TTemplateParserFactory.create());
+container.add('fileReader', TStringFileReaderFactory.create());
+container.add('baseTemplate', TBaseViewFactory.create());
+container.add('uploadView', TUploadViewFactory.create());
+container.add('uploadSuccessView', TUploadSuccessViewFactory.create());
